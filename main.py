@@ -1,14 +1,13 @@
 import streamlit
 import streamlit as st
 import pandas as pd
-import matplotlib as plt
+import matplotlib.pyplot as plt
 import plotly.express as px
 import sqlite3
 from streamlit_option_menu import option_menu
 from st_aggrid import AgGrid,GridOptionsBuilder,ColumnsAutoSizeMode
 
 import hashlib
-
 import streamlit.web.cli as stcli
 import sys
 
